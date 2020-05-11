@@ -2,9 +2,9 @@ library("ggplot2")
 library("scales")
 
 #Inputs
-m<-0.061
-vol<-0.12
-length<-100
+m<-0.061 #mean return for Normal Plot
+vol<-0.12 #volatility or SD
+length<-100 #number of breaks for graph
 
 #create vectors with z-values
 x<-seq(m-3*vol,m+3*vol,length.out=6*length)
